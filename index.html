@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whiteharmar Books | Rare Books & Unique Collectibles</title>
+    <meta name="description" content="A curated collection of rare books and unique collectibles. Featuring 'The Curator's Lens'—an AI-powered bibliographic discovery tool for collectors." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://whiteharmar.github.io/" />
+    <meta property="og:title" content="Whiteharmar Books | Rare Books & Unique Collectibles" />
+    <meta property="og:description" content="A curated collection of rare books and unique collectibles. Featuring 'The Curator's Lens'—an AI-powered bibliographic discovery tool for collectors." />
+    <meta property="og:image" content="https://picsum.photos/seed/whiteharmar/1200/630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Whiteharmar Books | Rare Books & Unique Collectibles" />
+    <meta property="twitter:description" content="A curated collection of rare books and unique collectibles. Featuring 'The Curator's Lens'—an AI-powered bibliographic discovery tool for collectors." />
+    <meta property="twitter:image" content="https://picsum.photos/seed/whiteharmar/1200/630" />
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into a correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to refresh the page.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.replace(/\/$/, '') + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
